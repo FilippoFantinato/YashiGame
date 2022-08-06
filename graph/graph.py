@@ -38,3 +38,16 @@ class Graph:
         self.adj_list[t][s] = w
 
         self.edges.add((s, t, w))
+        self.edges.add((t, s, w))
+
+    def __xor__(self, other):
+        g1_edges = self.get_edges()
+        g2_edges = other.get_edges()
+
+        edges = g1_edges.union(g2_edges)
+        inter = g1_edges.intersection(g2_edges)
+
+        return Graph(edges - inter)
+
+    def __hash__(self) -> int:
+        return hash(frozenset(self.edges))
