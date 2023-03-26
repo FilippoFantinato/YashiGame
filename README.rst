@@ -9,7 +9,12 @@ This small project aims to automatize the resolution of Yashi Game. Formally, gi
 #. exactly :math:`n-1` lines must be used, where $n$ is the number of points;
 #. no cycles.
 
-Examples regarding the game can be found in [1]_.
+.. figure:: images/game-example.jpg
+
+    Example of Yashi game
+
+
+More examples regarding the game can be found in [1]_.
 
 The game can be divided up in three sub-games, one more difficult than the previous:
 
@@ -22,12 +27,14 @@ In order to solve them I used a mixuture between Graph Theory and SAT. Namely, I
 A deeper explanation about the code and solution can be found in the following colab: `https://colab.research.google.com/drive/1TAXalJZJqK_mmszQTmX9zWDElKHTJZQv?usp=sharing <https://colab.research.google.com/drive/1TAXalJZJqK_mmszQTmX9zWDElKHTJZQv?usp=sharing>`_.
 
 Requirements
----------
+-----------------
 Before running the application be sure to have installed python-sat ([3]_) and matplotlib.
 
 .. code:: console
     
     $ pip install python-sat matplotlib
+
+The recommended python version is :math:`\geq 3.9.0`
 
 Usage
 ---------
@@ -67,7 +74,7 @@ Some examples of valid commands are:
 
 
 Sitography
---------
+---------------
 
 .. [1] `http://www.sumsumpuzzle.com/yashi.htm <http://www.sumsumpuzzle.com/yashi.htm>`_
 .. [2] `https://www.codeproject.com/Articles/1158232/Enumerating-All-Cycles-in-an-Undirected-Graph <https://www.codeproject.com/Articles/1158232/Enumerating-All-Cycles-in-an-Undirected-Graph>`_
