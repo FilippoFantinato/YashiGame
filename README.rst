@@ -1,6 +1,9 @@
 Yashi Game
 ===============================
 
+.. image:: https://github.com/FilippoFantinato/YashiGame/actions/workflows/build.yml/badge.svg?branch=main
+   :target: https://github.com/FilippoFantinato/YashiGame/actions/workflows/build.yml
+
 .. contents::
     :local:
 
