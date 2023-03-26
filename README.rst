@@ -33,11 +33,11 @@ A deeper explanation about the code and solution can be found in the following c
 Requirements
 ++++++++++++++++
 
-Before running the application be sure to have installed python-sat ([3]_) and matplotlib.
+Before running the application be sure to have installed python-sat ([3]_), matplotlib and pandas, or just run
 
 .. code:: console
     
-    $ pip install python-sat matplotlib
+    $ pip install -r requirements.txt
 
 The recommended python version is $>= 3.9.0$
 
