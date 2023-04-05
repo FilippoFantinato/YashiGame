@@ -82,7 +82,7 @@ Some examples of valid commands are:
     $ python main.py --file data/minimum-cost-solution.csv --mode best
 
 
-Sitography
+References
 ++++++++++++++++
 
 .. [1] `http://www.sumsumpuzzle.com/yashi.htm <http://www.sumsumpuzzle.com/yashi.htm>`_
